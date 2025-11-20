@@ -1,0 +1,107 @@
+/* lime-elements-theme.css */
+
+/* Override Criipto CSS variables */
+:root {
+  /* Primary / action color */
+  --cr-color-primary: #BEE034;
+
+  /* Secondary / accent color */
+  --cr-color-secondary: #6FCDB6;
+
+  /* Background color for the signing UI */
+  --cr-color-background: #FFFFFF;
+
+  /* Text color */
+  --cr-color-text: #545762;
+
+  /* Button text color on primary */
+  --cr-color-on-primary: #FFFFFF;
+
+  /* Border or less emphasized UI elements */
+  --cr-color-border: #DCDCDC;
+
+  /* Link color, if relevant */
+  --cr-color-link: #6FCDB6;
+
+  /* Loader / spinner color (optional) */
+  --cr-color-loader: #BEE034;
+}
+
+/* Apply Lime font / typography */
+body, .criipto-signatures {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: var(--cr-color-text);
+  background-color: var(--cr-color-background);
+}
+
+/* Customize logo container if needed */
+.criipto-signatures__logo img {
+  max-height: 40px;  /* tune as needed */
+  object-fit: contain;
+}
+
+/* Buttons (primary) */
+.criipto-signatures__button,
+.criipto-signatures__button--primary {
+  background-color: var(--cr-color-primary);
+  color: var(--cr-color-on-primary);
+  border: none;
+  border-radius: 4px; /* or match your Lime buttons */
+}
+
+.criipto-signatures__button--primary:hover {
+  background-color: #AECB2D; /* a slightly darker lime, adjust if needed */
+}
+
+/* Secondary / outline buttons */
+.criipto-signatures__button--secondary {
+  background-color: transparent;
+  color: var(--cr-color-secondary);
+  border: 2px solid var(--cr-color-secondary);
+}
+
+.criipto-signatures__button--secondary:hover {
+  background-color: var(--cr-color-secondary);
+  color: var(--cr-color-on-primary);
+}
+
+/* Footer / small text */
+.criipto-signatures__footer {
+  color: var(--cr-color-text);
+  font-size: 0.875rem;
+}
+
+/* Customizing spinner */
+.criipto-signatures__spinner svg {
+  stroke: var(--cr-color-loader);
+}
+
+/* Adjusting card / dialog appearance */
+.criipto-signatures__dialog {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Form fields (input / labels) */
+.criipto-signatures__input, 
+.criipto-signatures__label {
+  color: var(--cr-color-text);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.criipto-signatures__input {
+  border: 1px solid var(--cr-color-border);
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #FAFAFA;
+}
+
+/* Link styles if used in UI steps / instructions */
+.criipto-signatures__link {
+  color: var(--cr-color-link);
+  text-decoration: underline;
+}
+
+.criipto-signatures__link:hover {
+  color: darken(var(--cr-color-link), 10%);
+}
