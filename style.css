@@ -26,7 +26,7 @@
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
 }
 
-.criipto-signatures button:disabled {
+.criipto-signatures button.button--default:disabled {
    --button-default-color-rgb: rgba(var(25, 25, 44), 0.37) !important; /* --contrast-1600 */
    --button-default-background-rgb: rgba(var(25, 25, 44), 0.1) !important;
 
