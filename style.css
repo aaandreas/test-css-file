@@ -27,16 +27,13 @@
 }
 
 .criipto-signatures button.button--default:disabled {
-   --button-default-color-rgb:rgba(25, 25, 44, 0.37) !important; /* --contrast-1600 */
-   --button-default-background-rgb: rgba(25, 25, 44, 0.1) !important;
-
    --bs-btn-disabled-bg: rgba(25, 25, 44, 0.1) !important;
    --bs-btn-disabled-color: rgba(25, 25, 44, 0.37) !important;
+    box-shadow: none !important;
 }
 
-.criipto-signatures button--primary:disabled {
+.criipto-signatures button.button--primary:disabled {
    --button-primary-color-rgb: rgba(16, 16, 16, 0.3) !important; /* --lime-elevated-surface-background-color */
    --button-primary-background-rgb: rgba(20, 20, 37, 0.15) !important; /* --limel-theme-primary-color */
-
-
+    box-shadow: none !important;
 }
