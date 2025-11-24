@@ -14,3 +14,7 @@
   --button-danger-background-rgb: var(--danger-rgb);
   --button-danger-color-rgb: 255, 255, 255; /* --lime-elevated-surface-background-color */
 }
+
+.criipto-signatures button {
+    border-radius: 6.4px !important;
+}
