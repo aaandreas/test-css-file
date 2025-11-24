@@ -25,3 +25,8 @@
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
 }
+
+.criipto-signatures button:disabled {
+    color: rgba(var(25, 25, 44), 0.37); /* --contrast-1600 */
+    background-color: rgba(var(25, 25, 44), 0.1);
+}
