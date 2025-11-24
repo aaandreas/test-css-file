@@ -29,4 +29,7 @@
 .criipto-signatures button:disabled {
    --button-default-color-rgb: rgba(var(25, 25, 44), 0.37) !important; /* --contrast-1600 */
    --button-default-background-rgb: rgba(var(25, 25, 44), 0.1) !important;
+
+   --bs-btn-disabled-bg: rgba(var(25, 25, 44), 0.1) !important;
+   --bs-btn-disabled-color: rgba(var(25, 25, 44), 0.37) !important;
 }
