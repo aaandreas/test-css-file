@@ -27,6 +27,6 @@
 }
 
 .criipto-signatures button:disabled {
-   --button-default-color-rgb: rgba(var(25, 25, 44), 0.37); /* --contrast-1600 */
-   --button-default-background-rgb: rgba(var(25, 25, 44), 0.1);
+   --button-default-color-rgb: rgba(var(25, 25, 44), 0.37) !important; /* --contrast-1600 */
+   --button-default-background-rgb: rgba(var(25, 25, 44), 0.1) !important;
 }
