@@ -104,4 +104,27 @@ body, .criipto-signatures {
 
 .criipto-signatures__link:hover {
   color: darken(var(--cr-color-link), 10%);
+} 
+
+
+.criipto-signatures {
+  --primary-rgb: 128, 0, 128; /* Example: purple */
+}
+
+
+.criipto-signatures {
+  --primary-rgb: 0, 150, 136;
+  /* --danger-rgb: 206, 112, 101;
+  --success-rgb: 128, 231, 144; */
+
+  --font-family: ui-sans-serif, system-ui, sans-serif;
+
+  /* --button-primary-background-rgb: var(--primary-rgb);
+  --button-primary-color-rgb: 255, 255, 255;
+
+  --button-default-background-rgb: 255, 255, 255;
+  --button-default-color-rgb: var(--primary-rgb);
+
+  --button-danger-background-rgb: var(--danger-rgb);
+  --button-danger-color-rgb: 255, 255, 255; */
 }
