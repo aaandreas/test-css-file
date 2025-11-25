@@ -51,7 +51,7 @@
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
     transform: translate3d(0, 0.05rem, 0);
     border-color: transparent !important;
-    --bs-btn-active-color: var(--primary-rgb) !important;
+    /* --bs-btn-active-color: var(--primary-rgb) !important; */
 }
 
 .criipto-signatures button.button--primary:not(:disabled):active{
@@ -64,8 +64,8 @@
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
     transform: translate3d(0, 0.05rem, 0);
     border-color: transparent !important;
-    --bs-btn-active-color: 255, 255, 255;
-    --bs-btn-active-bg: var(--primary-rgb);
+    /* --bs-btn-active-color: 255, 255, 255; */
+    /* --bs-btn-active-bg: var(--primary-rgb); */
 }
 
 .criipto-signatures button.button--danger:not(:disabled):active{
@@ -77,8 +77,8 @@
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
     transform: translate3d(0, 0.05rem, 0);
     border-color: transparent !important;
-    --bs-btn-active-color: 255, 255, 255;
-    --bs-btn-active-bg: var(--danger-rgb);
+    /* --bs-btn-active-color: 255, 255, 255; */
+    /* --bs-btn-active-bg: var(--danger-rgb); */
 }
 
 .criipto-signatures button.button--primary:disabled {
@@ -95,10 +95,11 @@
     border-color: transparent !important;
 }
 
-/* found in their internal html structure - not stable if they update it */
 .criipto-signatures button.button--default:disabled {
-   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15) !important;
+/* found in their internal html structure - not stable if they update it */
+   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15) !important; 
    --bs-btn-disabled-color: rgba(25, 25, 44, 0.37) !important;
-    box-shadow: none !important;
+   
+   box-shadow: none !important;
     border-color: transparent !important;
 }
