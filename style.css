@@ -15,7 +15,8 @@
   --button-danger-color-rgb: 255, 255, 255; /* --lime-elevated-surface-background-color */
 }
 
-.criipto-signatures button {
+.criipto-signatures button.button--default, 
+.criipto-signatures button.button--primary{
     border-radius: 6.4px !important;
 
      box-shadow:
@@ -26,16 +27,17 @@
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
 }
 
-.criipto-signatures button.button--default:disabled {
-   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15) !important;
-   --bs-btn-disabled-color: rgba(25, 25, 44, 0.37) !important;
+.criipto-signatures button.button--primary:disabled {
+   --button-primary-color-rgb: 25, 25, 44; 
+   --button-primary-background-rgb: 20, 20, 37; 
     box-shadow: none !important;
     border-color: transparent !important;
 }
 
-.criipto-signatures button.button--primary:disabled {
-   --button-primary-color-rgb: rgba(25, 25, 44, 0.37) !important; 
-   --button-primary-background-rgb: rgba(20, 20, 37, 0.15) !important; 
+/* found in their internal html structure - not stable if they update it */
+.criipto-signatures button.button--default:disabled {
+   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15) !important;
+   --bs-btn-disabled-color: rgba(25, 25, 44, 0.37) !important;
     box-shadow: none !important;
     border-color: transparent !important;
 }
