@@ -40,21 +40,45 @@
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
-   
 }
 
-.criipto-signatures button.button--default:not(:disabled):active,
-.criipto-signatures button.button--primary:not(:disabled):active,
-.criipto-signatures button.button--danger:not(:disabled):active {
+.criipto-signatures button.button--default:not(:disabled):active {
     box-shadow:
         0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.132),
         0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
         0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
-        transform: translate3d(0, 0.05rem, 0);
-        border-color: transparent !important;
-        --bs-btn-active-color: var(--primary-rgb);
+    transform: translate3d(0, 0.05rem, 0);
+    border-color: transparent !important;
+    --bs-btn-active-color: var(--primary-rgb) !important;
+}
+
+.criipto-signatures button.button--primary:not(:disabled):active{
+
+    box-shadow:
+        0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.132),
+        0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
+        /* inner brighten edges */
+        0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+    transform: translate3d(0, 0.05rem, 0);
+    border-color: transparent !important;
+    --bs-btn-active-color: 255, 255, 255;
+    --bs-btn-active-bg: var(--primary-rgb);
+}
+
+.criipto-signatures button.button--danger:not(:disabled):active{
+     box-shadow:
+        0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.132),
+        0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
+        /* inner brighten edges */
+        0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+    transform: translate3d(0, 0.05rem, 0);
+    border-color: transparent !important;
+    --bs-btn-active-color: 255, 255, 255;
+    --bs-btn-active-bg: var(--danger-rgb);
 }
 
 .criipto-signatures button.button--primary:disabled {
