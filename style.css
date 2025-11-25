@@ -17,7 +17,8 @@
 
 .criipto-signatures button.button--default, 
 .criipto-signatures button.button--primary,
-.criipto-signatures button.button--danger{
+.criipto-signatures button.button--danger,
+.criipto-signatures button.button--transparent-bordered{
     border-radius: 6.4px !important;
 
      box-shadow:
