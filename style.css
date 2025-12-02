@@ -19,14 +19,14 @@
 .criipto-signatures button.button--primary,
 .criipto-signatures button.button--danger,
 .criipto-signatures button.button--transparent-bordered{
-    border-radius: 6.4px !important;
+    border-radius: 6.4px;
 
      box-shadow:
         0 0.09375rem 0.225rem 0 rgba(0, 0, 0, 0.632),
         0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.608),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
 }
 
 .criipto-signatures button.button--default:not(:disabled):hover,
@@ -42,7 +42,7 @@
         0 0.4rem 0.475rem -0.3rem rgba(0, 0, 0, 0.1),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
 }
 
 .criipto-signatures button.button--default:not(:disabled):active,
@@ -52,9 +52,9 @@
         0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
     transform: translate3d(0, 0.05rem, 0);
-    border-color: transparent !important;
+    border-color: transparent;
     color: rgb(var(--primary-rgb));
 }
 
@@ -65,9 +65,9 @@
         0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
     transform: translate3d(0, 0.05rem, 0);
-    border-color: transparent !important;
+    border-color: transparent;
     color: rgb(255, 255, 255);
     background-color: rgb(var(--primary-rgb));
 }
@@ -78,9 +78,9 @@
         0 0.01875rem 0.05625rem 0 rgba(0, 0, 0, 0.108),
         /* inner brighten edges */
         0 -1px 0.26rem rgba(255, 255, 255, 0.06) inset,
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
     transform: translate3d(0, 0.05rem, 0);
-    border-color: transparent !important;
+    border-color: transparent;
     color: rgb(255, 255, 255);
     background-color: rgb(var(--danger-rgb));
 }
@@ -88,22 +88,22 @@
 .criipto-signatures button.button--primary:disabled {
    --button-primary-color-rgb: 25, 25, 44; 
    --button-primary-background-rgb: 20, 20, 37; 
-    box-shadow: none !important;
-    border-color: transparent !important;
+    box-shadow: none;
+    border-color: transparent;
 }
 
 .criipto-signatures button.button--danger:disabled {
    --button-danger-background-rgb: 20, 20, 37; 
    --button-danger-color-rgb: 25, 25, 44; 
-    box-shadow: none !important;
-    border-color: transparent !important;
+    box-shadow: none;
+    border-color: transparent;
 }
 
 .criipto-signatures button.button--default:disabled {
 /* found in their internal html structure - not stable if they update it */
-   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15) !important; 
-   --bs-btn-disabled-color: rgba(25, 25, 44, 0.37) !important;
+   --bs-btn-disabled-bg: rgba(20, 20, 37, 0.15); 
+   --bs-btn-disabled-color: rgba(25, 25, 44, 0.37);
    
-  box-shadow: none !important;
-  border-color: transparent !important;
+  box-shadow: none;
+  border-color: transparent 
 }
