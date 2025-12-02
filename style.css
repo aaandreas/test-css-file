@@ -1,7 +1,7 @@
 .criipto-signatures {
-  --primary-rgb: 0, 150, 136 !important;  /* --limel-theme-primary-color */
-  --danger-rgb: 211, 47, 47 !important;   /*  --limel-theme-error-color */
-  --success-rgb: 0, 150, 136 !important;  /*  --limel-theme-primary-color  */
+  --primary-rgb: 0, 150, 136;  /* --limel-theme-primary-color */
+  --danger-rgb: 211, 47, 47;   /*  --limel-theme-error-color */
+  --success-rgb: 0, 150, 136;  /*  --limel-theme-primary-color  */
 
   --font-family: ui-sans-serif, system-ui, sans-serif;
 
